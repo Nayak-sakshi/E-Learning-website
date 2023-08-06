@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.dashboard-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-nav {
+    flex: 1;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.dashboard-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dashboard-nav li {
+    margin-bottom: 10px;
+}
+
+.dashboard-nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.dashboard-content {
+    flex: 3;
+    padding: 20px;
+}
+
+.profile-summary {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-name {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333333;
+}
+
+.profile-email {
+    color: #666666;
+}
+
+.dashboard-widgets {
+    display: flex;
+    justify-content: space-between;
+}
+
+.widget {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.widget h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #333333;
+}
+
+.widget ul {
+    list-style: none;
+    padding: 0;
+}
+
+.widget li {
+    margin-bottom: 5px;
+    color: #666666;
+}

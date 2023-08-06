@@ -1,0 +1,48 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profile.css">
+    <title>Profile Dashboard</title>
+</head>
+<body>
+    <div class="dashboard-container">
+        <nav class="dashboard-nav">
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Achievements</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+        <div class="dashboard-content">
+            <div class="profile-summary">
+                <img src="./assets/123.webp" alt="Profile Picture" class="profile-picture">
+                <h1 class="profile-name">Profile</h1>
+                <p class="profile-email">john.doe@example.com</p>
+            </div>
+            <div class="dashboard-widgets">
+                <div class="widget">
+                    <h2>Upcoming Courses</h2>
+                    <ul>
+                        <li>HTML Basics</li>
+                        <li>CSS Fundamentals</li>
+                    </ul>
+                </div>
+                <div class="widget">
+                    <h2>Achievements</h2>
+                    <p>Completed 5 courses</p>
+                    <form action="/api" method="post" enctype="multipart/form-data">
+                        <label for="file">File</label>
+                        <input id="file" name="file" type="file" />
+                        <button>Upload</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
